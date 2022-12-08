@@ -1,18 +1,37 @@
 import ReactAudioPlayer from "react-audio-player";
-import cci from "./audios/cci.mp3";
-import gpv from "./audios/gpv.mp3";
-import cr from "./audios/cr.mp3";
-import ddl from "./audios/ddl.mp3";
-import dlr from "./audios/dlr.mp3";
-import eol from "./audios/eol.mp3";
-import er from "./audios/er.mp3";
-import idl from "./audios/idl.mp3";
-import tr from "./audios/tr.mp3";
-import lr from "./audios/lr.mp3";
-import vv from "./audios/vv.mp3";
-import ldl from "./audios/ldl.mp3";
-import wvr from "./audios/wvr.mp3";
-import cof from "./audios/cof.mp3";
+import cci from "./audios/serviceaudios/cci.mp3";
+import gpv from "./audios/serviceaudios/gpv.mp3";
+import cr from "./audios/serviceaudios/cr.mp3";
+import ddl from "./audios/serviceaudios/ddl.mp3";
+import dlr from "./audios/serviceaudios/dlr.mp3";
+import eol from "./audios/serviceaudios/eol.mp3";
+import er from "./audios/serviceaudios/er.mp3";
+import idl from "./audios/serviceaudios/idl.mp3";
+import tr from "./audios/serviceaudios/tr.mp3";
+import lr from "./audios/serviceaudios/lr.mp3";
+import vv from "./audios/serviceaudios/vv.mp3";
+import ldl from "./audios/serviceaudios/ldl.mp3";
+import wvr from "./audios/serviceaudios/wvr.mp3";
+import cof from "./audios/serviceaudios/cof.mp3";
+
+import ccstep1 from "./audios/stepsaudios/ccstep1.mp3";
+import cofstep1 from "./audios/stepsaudios/cofstep1.mp3";
+import crstep1 from "./audios/stepsaudios/crstep1.mp3";
+import ddlstep1 from "./audios/stepsaudios/ddlstep1.mp3";
+import dlrstep1 from "./audios/stepsaudios/dlrstep1.mp3";
+import eolstep1 from "./audios/stepsaudios/eolstep1.mp3";
+import erstep1 from "./audios/stepsaudios/erstep1.mp3";
+import gpvstep1 from "./audios/stepsaudios/gpvstep1.mp3";
+import idlstep1 from "./audios/stepsaudios/idlstep1.mp3";
+import ldlstep1 from "./audios/stepsaudios/ldlstep1.mp3";
+import lrstep1 from "./audios/stepsaudios/lrstep1.mp3";
+import trstep1 from "./audios/stepsaudios/trstep1.mp3";
+import vvstep1 from "./audios/stepsaudios/vvstep1.mp3";
+import wvrstep1 from "./audios/stepsaudios/wvrstep1.mp3";
+
+
+
+
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
@@ -110,7 +129,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={ccstep1}
                     controls
                   />
                 </div>
@@ -187,7 +206,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={gpvstep1}
                     controls
                   />
                 </div>
@@ -264,7 +283,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={ldlstep1}
                     controls
                   />
                 </div>
@@ -341,7 +360,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={dlrstep1}
                     controls
                   />
                 </div>
@@ -418,7 +437,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={idlstep1}
                     controls
                   />
                 </div>
@@ -495,7 +514,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={ddlstep1}
                     controls
                   />
                 </div>
@@ -572,7 +591,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={eolstep1}
                     controls
                   />
                 </div>
@@ -649,7 +668,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={erstep1}
                     controls
                   />
                 </div>
@@ -726,7 +745,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={trstep1}
                     controls
                   />
                 </div>
@@ -803,7 +822,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={vvstep1}
                     controls
                   />
                 </div>
@@ -880,7 +899,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={lrstep1}
                     controls
                   />
                 </div>
@@ -957,7 +976,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={crstep1}
                     controls
                   />
                 </div>
@@ -1034,7 +1053,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={wvrstep1}
                     controls
                   />
                 </div>
@@ -1111,7 +1130,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={cofstep1}
                     controls
                   />
                 </div>
