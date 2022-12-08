@@ -95,13 +95,21 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
+
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -109,13 +117,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -125,13 +133,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -139,13 +147,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -157,7 +165,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={gpv}
                 controls
               />
@@ -165,13 +173,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -179,13 +194,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -195,13 +210,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -209,13 +224,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -227,7 +242,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={ldl}
                 controls
               />
@@ -235,13 +250,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -249,13 +271,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -265,13 +287,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -279,13 +301,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -297,7 +319,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={dlr}
                 controls
               />
@@ -305,13 +327,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -319,13 +348,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -335,13 +364,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -349,13 +378,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -367,7 +396,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={idl}
                 controls
               />
@@ -375,13 +404,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -389,13 +425,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -405,13 +441,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -419,13 +455,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -437,7 +473,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={ddl}
                 controls
               />
@@ -445,13 +481,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -459,13 +502,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -475,13 +518,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -489,13 +532,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -507,7 +550,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={eol}
                 controls
               />
@@ -515,13 +558,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -529,13 +579,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -545,13 +595,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -559,13 +609,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -577,7 +627,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={er}
                 controls
               />
@@ -585,13 +635,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -599,13 +656,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -615,13 +672,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -629,13 +686,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -647,7 +704,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={tr}
                 controls
               />
@@ -655,13 +712,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -669,13 +733,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -685,13 +749,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -699,13 +763,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -717,7 +781,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={vv}
                 controls
               />
@@ -725,13 +789,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -739,13 +810,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -755,13 +826,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -769,13 +840,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -787,7 +858,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={lr}
                 controls
               />
@@ -795,13 +866,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -809,13 +887,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -825,13 +903,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -839,13 +917,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -857,7 +935,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={cr}
                 controls
               />
@@ -865,13 +943,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -879,13 +964,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -895,13 +980,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -909,13 +994,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -927,7 +1012,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={wvr}
                 controls
               />
@@ -935,13 +1020,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -949,13 +1041,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -965,13 +1057,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -979,13 +1071,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -997,7 +1089,7 @@ export default function Services(props) {
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 style={{ width: "30%" }}
-                className="mt-4"
+                className="mt-3"
                 src={cof}
                 controls
               />
@@ -1005,13 +1097,20 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ marginTop: "-45px", marginRight: "20px" }}
+                  >
+                    قریب ترین مرکز
+                  </button>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -1019,13 +1118,13 @@ export default function Services(props) {
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -1035,13 +1134,13 @@ export default function Services(props) {
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
                   <img
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
@@ -1050,13 +1149,13 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     {...props.changeProgress(100)}
-                    className="img-fluid mx-auto"
+                    className="img-fluid"
                     src="https://wallpapercave.com/wp/wp4470754.jpg"
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
-                    className="mt-4"
+                    className="mt-3"
                     src={cci}
                     controls
                   />
