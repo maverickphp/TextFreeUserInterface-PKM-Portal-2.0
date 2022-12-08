@@ -13,6 +13,8 @@ import vv from "./audios/serviceaudios/vv.mp3";
 import ldl from "./audios/serviceaudios/ldl.mp3";
 import wvr from "./audios/serviceaudios/wvr.mp3";
 import cof from "./audios/serviceaudios/cof.mp3";
+import step1 from "./step1.png";
+import { Link } from "react-router-dom";
 
 import ccstep1 from "./audios/stepsaudios/ccstep1.mp3";
 import cofstep1 from "./audios/stepsaudios/cofstep1.mp3";
@@ -28,9 +30,6 @@ import lrstep1 from "./audios/stepsaudios/lrstep1.mp3";
 import trstep1 from "./audios/stepsaudios/trstep1.mp3";
 import vvstep1 from "./audios/stepsaudios/vvstep1.mp3";
 import wvrstep1 from "./audios/stepsaudios/wvrstep1.mp3";
-
-
-
 
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -113,18 +112,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
 
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
@@ -191,18 +187,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -268,18 +261,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -345,18 +335,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -422,18 +409,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -499,18 +483,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -576,18 +557,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -653,18 +631,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -730,18 +705,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -807,18 +779,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -884,18 +853,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -961,18 +927,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -1038,18 +1001,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -1115,18 +1075,15 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 1:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <button
+                  <img className="img-fluid" src={step1} alt="stepsimage" />
+                  <Link
+                    to="/centers"
                     type="button"
                     className="btn btn-primary"
                     style={{ marginTop: "-45px", marginRight: "20px" }}
                   >
                     قریب ترین مرکز
-                  </button>
+                  </Link>
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
