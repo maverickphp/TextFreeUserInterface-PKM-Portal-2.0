@@ -55,9 +55,9 @@ export default function Navbar(props) {
               </li>
               <li className="nav-item ">
                 <Link
-                  to="/services"
+                  to="/services#id=a"
                   className={`nav-link my-1 ${
-                    location.pathname === "/services" ? "active" : ""
+                    location.pathname === "/services#id=a" ? "active" : ""
                   }`}
                   aria-current="page"
                 >
