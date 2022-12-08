@@ -32,7 +32,7 @@ export default function Services(props) {
     <Tab.Container
       {...props.changeProgress(20)}
       id="list-group-tabs"
-      defaultActiveKey="#id=a"
+      defaultActiveKey={window.location.hash}
     >
       <Row>
         <Col sm={3}>
