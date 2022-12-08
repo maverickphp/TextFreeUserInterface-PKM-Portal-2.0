@@ -17,8 +17,8 @@ import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
-import ServicesSlider from "../UI/ServicesSlider";
-import testimg from "../UI/SliderImages/bg1.jpg";
+// import ServicesSlider from "../UI/ServicesSlider";
+// import testimg from "../UI/SliderImages/bg1.jpg";
 
 export default function Services(props) {
   document.title = "PKM Punjab - Our Services";
@@ -27,7 +27,7 @@ export default function Services(props) {
     justifyContent: "center",
     margin: "auto",
   };
-  
+
   return (
     <Tab.Container
       {...props.changeProgress(20)}
@@ -84,79 +84,984 @@ export default function Services(props) {
         <Col sm={9}>
           <Tab.Content className="col-11" style={myStyle}>
             <Tab.Pane eventKey="#id=a">
-             <h2>کریکٹر سرٹیفکیٹ کا تعارف</h2>
-              <ReactAudioPlayer className="mt-4" src={cci} controls />
+              <h2>کریکٹر سرٹیفکیٹ کا تعارف</h2>
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={cci}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=b">
-            <h2>جنرل پولیس کی تصدیق</h2>
+              <h2>جنرل پولیس کی تصدیق</h2>
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={gpv} controls />
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={gpv}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane {...props.changeProgress(70)} eventKey="#id=c">
               <h2>لرنر ڈرائیونگ لائسنس کا تعارف</h2>
-            {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={ldl} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={ldl}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=d">
               <h2>ڈرائیونگ لائسنس کی تجدید</h2>
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={dlr} controls />
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={dlr}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=e">
               <h2>بین الاقوامی ڈرائیونگ لائسنس کا تعارف</h2>
-                  {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={idl} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={idl}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=f">
               <h2>ڈپلیکیٹ ڈرائیونگ لائسنس کا تعارف</h2>
-            {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={ddl} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={ddl}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=g">
               <h2>لائسنس کی توثیق</h2>
-               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={eol} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={eol}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=h">
               <h2>ملازمین کی رجسٹریشن</h2>
-                {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={er} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={er}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=i">
               <h2>کرایہ داروں کی رجسٹریشن</h2>
-                 {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={tr} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={tr}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=j">
               <h2>گاڑی کی تصدیق</h2>
-         {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={vv} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={vv}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=k">
               <h2>نقصان کی رپورٹ</h2>
-             {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={lr} controls />
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={lr}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=l">
-              <h2>کرائم رپورٹ  کا تعارف</h2>
-                  {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={cr} controls />
+              <h2>کرائم رپورٹ کا تعارف</h2>
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={cr}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=m">
-              <h2>خواتین پر تشدد کی رپورٹ
-</h2>
-                {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
-              <ReactAudioPlayer className="mt-4" src={wvr} controls />
+              <h2>خواتین پر تشدد کی رپورٹ</h2>
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer
+                style={{ width: "30%" }}
+                className="mt-4"
+                src={wvr}
+                controls
+              />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
             <Tab.Pane eventKey="#id=n">
               <h2>ایف آئی آر کی کاپی</h2>
               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
+                style={{ width: "30%" }}
                 className="mt-4"
                 src={cof}
                 controls
-                {...props.changeProgress(100)}
               />
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 1:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 2:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
+              <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
+                <div className="col-5">
+                  <h2 className="text-start">Step 3:</h2>
+                  <img
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+                <div className="col-5" style={{ marginLeft: "20px" }}>
+                  <h2 className="text-start">Step 4:</h2>
+                  <img
+                    {...props.changeProgress(100)}
+                    className="img-fluid mx-auto"
+                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    alt="stepsimage"
+                  />
+                  <ReactAudioPlayer
+                    style={{ width: "60%" }}
+                    className="mt-4"
+                    src={cci}
+                    controls
+                  />
+                </div>
+              </div>
             </Tab.Pane>
           </Tab.Content>
         </Col>
