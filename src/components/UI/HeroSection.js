@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/HeroSection.css";
+import homeaudio from "../pages/audios/homeaudios/homehero.mp3"
 import ReactAudioPlayer from "react-audio-player";
 // import { Button } from "./Button";
 import mainBanner from "../UI/OtherImages/mainbanner.jpg";
@@ -12,6 +13,7 @@ function HeroSection() {
         <ReactAudioPlayer
           style={{ width: "30%", height: "10%", marginTop: "16%" }}
           className="btn"
+          src = {homeaudio}
           autoPlay
           controls
         />
