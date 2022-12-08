@@ -1,4 +1,5 @@
 import React from "react";
+import ReactAudioPlayer from "react-audio-player";
 import { Link } from "react-router-dom";
 import "../../styles/ServicesCard.css";
 import cc from "./ServiceCardImages/10.png";
@@ -23,7 +24,7 @@ export default function ServicesCard() {
 
   const cardStyle = {
     textDecoration: "none",
-    color: "black",
+    color: "white",
     borderRadius: "5%",
     boxShadow: "20px 20px 50px 10px grey",
   };
@@ -42,7 +43,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Character Certificate</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "blue",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Character Certificate
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=b" className="card m-1 mx-2">
@@ -53,7 +64,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">General Police Verification</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "green",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              General Police Verification
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=c" className="card m-1 mx-2">
@@ -64,7 +85,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Learner Driving License</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "violet",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Learner Driving License
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=h" className="card m-1 mx-2">
@@ -75,7 +106,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Employee Registeration</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "indigo",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Employee Registeration
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=n" className="card m-1 mx-2">
@@ -86,7 +127,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Copy of FIR</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "orange",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Copy of FIR
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
       </div>
@@ -99,7 +150,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Womens Violence Report</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "pink",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Womens Violence Report
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=l" className="card m-1 mx-2">
@@ -110,7 +171,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Crime Report</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "magenta",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Crime Report
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=k" className="card m-1 mx-2">
@@ -121,7 +192,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Loss Report</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "black",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Loss Report
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=i" className="card m-1 mx-2">
@@ -132,7 +213,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Tenants Registeration</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "grey",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Tenants Registeration
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=j" className="card m-1 mx-2">
@@ -143,7 +234,17 @@ export default function ServicesCard() {
             alt="Cardimg1"
           />
           <div className="card-body">
-            <h5 className="card-title">Vehicle Registeration</h5>
+            <h5
+              className="card-title"
+              style={{
+                backgroundColor: "gold",
+                padding: "15px",
+                borderRadius: "10px",
+              }}
+            >
+              Vehicle Registeration
+            </h5>
+            <ReactAudioPlayer className="mt-1" controls />
           </div>
         </Link>
       </div>

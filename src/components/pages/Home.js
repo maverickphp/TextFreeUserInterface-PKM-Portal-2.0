@@ -10,8 +10,8 @@ export default function Home(props) {
   return (
     <>
       {/* <Slider {...props.changeProgress(20)} /> */}
-      <HeroSection {...props.changeProgress(20)} />
-      <ServicesCard {...props.changeProgress(50)} />
+      <HeroSection {...props.changeProgress(50)} />
+      <ServicesCard {...props.changeProgress(100)} />
     </>
   );
 }

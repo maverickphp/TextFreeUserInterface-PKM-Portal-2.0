@@ -31,6 +31,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-tiny-fab": "^4.0.4",
     "react-top-loading-bar": "^2.1.0",
     "tippy.js": "^6.3.7",
     "validator": "^13.7.0",
