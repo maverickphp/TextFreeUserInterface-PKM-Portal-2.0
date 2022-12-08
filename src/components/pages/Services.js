@@ -1,5 +1,18 @@
 import ReactAudioPlayer from "react-audio-player";
-// import test from "./test.mp3";
+import cci from "./audios/cci.mp3";
+import gpv from "./audios/gpv.mp3";
+import cr from "./audios/cr.mp3";
+import ddl from "./audios/ddl.mp3";
+import dlr from "./audios/dlr.mp3";
+import eol from "./audios/eol.mp3";
+import er from "./audios/er.mp3";
+import idl from "./audios/idl.mp3";
+import tr from "./audios/tr.mp3";
+import lr from "./audios/lr.mp3";
+import vv from "./audios/vv.mp3";
+import ldl from "./audios/ldl.mp3";
+import wvr from "./audios/wvr.mp3";
+import cof from "./audios/cof.mp3";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
@@ -14,7 +27,7 @@ export default function Services(props) {
     justifyContent: "center",
     margin: "auto",
   };
-
+  
   return (
     <Tab.Container
       {...props.changeProgress(20)}
@@ -71,61 +84,76 @@ export default function Services(props) {
         <Col sm={9}>
           <Tab.Content className="col-11" style={myStyle}>
             <Tab.Pane eventKey="#id=a">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+             <h2>کریکٹر سرٹیفکیٹ کا تعارف</h2>
+              <ReactAudioPlayer className="mt-4" src={cci} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=b">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+            <h2>جنرل پولیس کی تصدیق</h2>
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={gpv} controls />
             </Tab.Pane>
             <Tab.Pane {...props.changeProgress(70)} eventKey="#id=c">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>لرنر ڈرائیونگ لائسنس کا تعارف</h2>
+            {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={ldl} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=d">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>ڈرائیونگ لائسنس کی تجدید</h2>
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={dlr} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=e">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>بین الاقوامی ڈرائیونگ لائسنس کا تعارف</h2>
+                  {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={idl} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=f">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>ڈپلیکیٹ ڈرائیونگ لائسنس کا تعارف</h2>
+            {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={ddl} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=g">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>لائسنس کی توثیق</h2>
+               {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={eol} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=h">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>ملازمین کی رجسٹریشن</h2>
+                {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={er} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=i">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>کرایہ داروں کی رجسٹریشن</h2>
+                 {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={tr} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=j">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>گاڑی کی تصدیق</h2>
+         {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={vv} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=k">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>نقصان کی رپورٹ</h2>
+             {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={lr} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=l">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>کرائم رپورٹ  کا تعارف</h2>
+                  {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={cr} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=m">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
-              <ReactAudioPlayer className="mt-4" controls />
+              <h2>خواتین پر تشدد کی رپورٹ
+</h2>
+                {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
+              <ReactAudioPlayer className="mt-4" src={wvr} controls />
             </Tab.Pane>
             <Tab.Pane eventKey="#id=n">
-              <ServicesSlider img1={testimg} img2={testimg} img3={testimg} />
+              <h2>ایف آئی آر کی کاپی</h2>
+              {/* <ServicesSlider img1={testimg} img2={testimg} img3={testimg} /> */}
               <ReactAudioPlayer
                 className="mt-4"
+                src={cof}
                 controls
                 {...props.changeProgress(100)}
               />
