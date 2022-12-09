@@ -1,3 +1,7 @@
+.root {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
 .App {
   text-align: center;
 }
@@ -45,6 +49,15 @@
     transform: rotate(360deg);
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
 footer {
   position: bottom;
   bottom: 0;

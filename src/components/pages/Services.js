@@ -41,7 +41,6 @@ import trstep2 from "../UI/ServicesImages/trstep2.png";
 import vvstep2 from "../UI/ServicesImages/vvstep2.png";
 import wvrstep2 from "../UI/ServicesImages/wvrstep2.png";
 
-
 import courierstep4 from "../UI/ServicesImages/courierstep4.png";
 import handstep4 from "../UI/ServicesImages/handstep4.png";
 
@@ -89,46 +88,46 @@ export default function Services(props) {
         <Col sm={3}>
           <ListGroup className="services-list">
             <ListGroup.Item action href="#id=a">
-              Character Certificate
+              کریکٹر سرٹیفکیٹ
             </ListGroup.Item>
             <ListGroup.Item action href="#id=b">
-              General Police Verification
+            جنرل پولیس کی تصدیق
             </ListGroup.Item>
             <ListGroup.Item action href="#id=c">
-              Learner Driving License
+            لرنر ڈرائیونگ لائسنس
             </ListGroup.Item>
             <ListGroup.Item action href="#id=d">
-              Driving License Renewal
+            ڈرائیونگ لائسنس کی تجدید
             </ListGroup.Item>
             <ListGroup.Item {...props.changeProgress(50)} action href="#id=e">
-              International Driving License
+            انٹرنیشنل ڈرائیونگ لائسنس
             </ListGroup.Item>
             <ListGroup.Item action href="#id=f">
-              Duplicate Driving License
+            ڈپلیکیٹ ڈرائیونگ لائسنس
             </ListGroup.Item>
             <ListGroup.Item action href="#id=g">
-              Endorsement of a License
+            لائسنس کی توثیق
             </ListGroup.Item>
             <ListGroup.Item action href="#id=h">
-              Employee Registration
+            ملازمین کی رجسٹریشن
             </ListGroup.Item>
             <ListGroup.Item action href="#id=i">
-              Tenants Registration
+            کرایہ داروں کی رجسٹریشن
             </ListGroup.Item>
             <ListGroup.Item action href="#id=j">
-              Vehicle Verification
+            گاڑی کی تصدیق
             </ListGroup.Item>
             <ListGroup.Item action href="#id=k">
-              Loss Report
+            نقصان کی رپورٹ
             </ListGroup.Item>
             <ListGroup.Item action href="#id=l">
-              Crime Reports
+            کرائم رپورٹ
             </ListGroup.Item>
             <ListGroup.Item action href="#id=m">
-              Women Violence Report
+            خواتین پر تشدد کی رپورٹ
             </ListGroup.Item>
             <ListGroup.Item action href="#id=n">
-              Copy of FIR
+            ایف آئی آر کی کاپی
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -164,11 +163,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={ccstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={ccstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -234,11 +229,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={gpvstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={gpvstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -304,11 +295,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={ldlstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={ldlstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -330,11 +317,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -374,11 +357,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={dlrstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={dlrstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -444,11 +423,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={idlstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={idlstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -514,11 +489,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={ddlstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={ddlstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -584,11 +555,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={eolstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={eolstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -654,11 +621,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={erstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={erstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -680,11 +643,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -724,11 +683,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={trstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={trstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -750,11 +705,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -794,11 +745,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={vvstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={vvstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -820,11 +767,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -864,11 +807,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={lrstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={lrstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -890,11 +829,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -934,11 +869,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={crstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={crstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -960,11 +891,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -1004,11 +931,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={wvrstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={wvrstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -1030,11 +953,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
-                  <img
-                    className="img-fluid"
-                    src={handstep4}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={handstep4} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
@@ -1074,11 +993,7 @@ export default function Services(props) {
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 2:</h2>
-                  <img
-                    className="img-fluid"
-                    src={cofstep2}
-                    alt="stepsimage"
-                  />
+                  <img className="img-fluid" src={cofstep2} alt="stepsimage" />
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"

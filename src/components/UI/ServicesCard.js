@@ -43,7 +43,7 @@ export default function ServicesCard() {
   return (
     <div style={{ margin: "80px 0px" }}>
       <h1 className="mt-5 mb-4" style={{ fontSize: 52 }}>
-        Our Services
+        ہماری خدمات
       </h1>
       <div className="d-flex justify-content-center pb-2 pt-2">
         <Link style={cardStyle} to="services#id=a" className="card m-1 mx-2">
@@ -62,9 +62,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Character Certificate
+              کریکٹر سرٹیفیکیٹ
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homecc} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homecc}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=b" className="card m-1 mx-2">
@@ -83,9 +88,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              General Police Verification
+              جنرل پولیس کی تصدیق
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homegpv} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homegpv}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=c" className="card m-1 mx-2">
@@ -104,9 +114,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Learner Driving License
+              لرنر ڈرائیونگ لائسنس
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homeldl} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homeldl}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=h" className="card m-1 mx-2">
@@ -125,9 +140,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Employee Registeration
+              ملازمین کی رجسٹریشن
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homeer} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homeer}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=n" className="card m-1 mx-2">
@@ -146,9 +166,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Copy of FIR
+              ایف آئی آر کی کاپی
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homecof} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homecof}
+            />
           </div>
         </Link>
       </div>
@@ -169,9 +194,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Womens Violence Report
+              خواتین پر تشدد کی رپورٹ
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homewvr} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homewvr}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=l" className="card m-1 mx-2">
@@ -190,9 +220,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Crime Report
+              کرائم رپورٹ
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homecr} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homecr}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=k" className="card m-1 mx-2">
@@ -211,9 +246,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Loss Report
+              نقصان کی رپورٹ
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homelr} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homelr}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=i" className="card m-1 mx-2">
@@ -232,9 +272,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Tenants Registeration
+              کرایہ داروں کی رجسٹریشن
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={hometr} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={hometr}
+            />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=j" className="card m-1 mx-2">
@@ -253,9 +298,14 @@ export default function ServicesCard() {
                 borderRadius: "10px",
               }}
             >
-              Vehicle Registeration
+              گاڑیوں کی رجسٹریشن
             </h5>
-            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homevr} />
+            <ReactAudioPlayer
+              style={{ width: "100%" }}
+              className="mt-1"
+              controls
+              src={homevr}
+            />
           </div>
         </Link>
       </div>
