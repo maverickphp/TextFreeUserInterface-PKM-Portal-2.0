@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import ReactAudioPlayer from "react-audio-player";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import homehero from "../pages/audios/homeaudios/homehero.mp3";
+import navbaraudio from "../pages/audios/homeaudios/navbaraudio.mp3";
 import "../../styles/Navbar.css";
 import { useDispatch, useSelector } from "react-redux";
 import { removeToken } from "../../store/authSlice";
@@ -53,7 +53,7 @@ export default function Navbar(props) {
                     marginRight: "5px",
                     marginTop: "5px",
                   }}
-                  src={homehero}
+                  src={navbaraudio}
                 />
               </li>
               <li className="nav-item ">

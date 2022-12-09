@@ -45,6 +45,10 @@ import wvrstep2 from "../UI/ServicesImages/wvrstep2.png";
 import courierstep4 from "../UI/ServicesImages/courierstep4.png";
 import handstep4 from "../UI/ServicesImages/handstep4.png";
 
+import step3 from "./audios/stepsaudios/step3.mp3";
+import byhandstep4 from "./audios/stepsaudios/byhandstep4.mp3";
+import bycourierstep4 from "./audios/stepsaudios/bycourierstep4.mp3";
+
 import ccstep1 from "./audios/stepsaudios/ccstep1.mp3";
 import cofstep1 from "./audios/stepsaudios/cofstep1.mp3";
 import crstep1 from "./audios/stepsaudios/crstep1.mp3";
@@ -180,7 +184,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -194,7 +198,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={bycourierstep4}
                     controls
                   />
                 </div>
@@ -250,7 +254,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -264,7 +268,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={bycourierstep4}
                     controls
                   />
                 </div>
@@ -320,7 +324,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -334,7 +338,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -390,7 +394,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -404,7 +408,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={bycourierstep4}
                     controls
                   />
                 </div>
@@ -460,7 +464,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -474,7 +478,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={bycourierstep4}
                     controls
                   />
                 </div>
@@ -530,7 +534,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -544,7 +548,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={bycourierstep4}
                     controls
                   />
                 </div>
@@ -600,7 +604,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -614,7 +618,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={bycourierstep4}
                     controls
                   />
                 </div>
@@ -670,7 +674,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -684,7 +688,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -740,7 +744,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -754,7 +758,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -810,7 +814,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -824,7 +828,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -880,7 +884,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -894,7 +898,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -950,7 +954,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -964,7 +968,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -1020,7 +1024,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -1034,7 +1038,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
@@ -1090,7 +1094,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={step3}
                     controls
                   />
                 </div>
@@ -1105,7 +1109,7 @@ export default function Services(props) {
                   <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
-                    src={cci}
+                    src={byhandstep4}
                     controls
                   />
                 </div>
