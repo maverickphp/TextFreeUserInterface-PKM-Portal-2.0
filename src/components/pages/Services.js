@@ -13,8 +13,18 @@ import vv from "./audios/serviceaudios/vv.mp3";
 import ldl from "./audios/serviceaudios/ldl.mp3";
 import wvr from "./audios/serviceaudios/wvr.mp3";
 import cof from "./audios/serviceaudios/cof.mp3";
-import step1 from "./step1.png";
 import { Link } from "react-router-dom";
+
+import step1 from "../UI/ServicesImages/step1.png";
+
+import ccstep3 from "../UI/ServicesImages/ccstep3.png";
+import gpvstep3 from "../UI/ServicesImages/gpvstep3.png";
+import ldlstep3 from "../UI/ServicesImages/ldlstep3.png";
+import dlrstep3 from "../UI/ServicesImages/dlrstep3.png";
+import idlstep3 from "../UI/ServicesImages/idlstep3.png";
+import ddlstep3 from "../UI/ServicesImages/ddlstep3.png";
+import vvstep3 from "../UI/ServicesImages/vvstep3.png";
+import freestep3 from "../UI/ServicesImages/freestep3.png";
 
 import ccstep1 from "./audios/stepsaudios/ccstep1.mp3";
 import cofstep1 from "./audios/stepsaudios/cofstep1.mp3";
@@ -147,17 +157,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={ccstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -221,17 +227,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={gpvstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -295,17 +297,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={ldlstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -369,17 +367,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={dlrstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -443,17 +437,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={idlstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -517,17 +507,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={ddlstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -591,17 +577,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -665,17 +647,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -739,17 +717,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -813,17 +787,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={vvstep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -887,17 +857,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -961,17 +927,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -1035,17 +997,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
@@ -1109,17 +1067,13 @@ export default function Services(props) {
               <div className="d-flex flex-row" style={{ marginTop: "25px" }}>
                 <div className="col-5">
                   <h2 className="text-start">Step 3:</h2>
-                  <img
-                    className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
-                    alt="stepsimage"
-                  />
-                  <ReactAudioPlayer
+                  <img className="img-fluid" src={freestep3} alt="stepsimage" />
+                  {/* <ReactAudioPlayer
                     style={{ width: "60%" }}
                     className="mt-3"
                     src={cci}
                     controls
-                  />
+                  /> */}
                 </div>
                 <div className="col-5" style={{ marginLeft: "20px" }}>
                   <h2 className="text-start">Step 4:</h2>
