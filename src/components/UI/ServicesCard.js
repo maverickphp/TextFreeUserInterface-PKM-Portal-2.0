@@ -64,7 +64,7 @@ export default function ServicesCard() {
             >
               Character Certificate
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homecc} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homecc} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=b" className="card m-1 mx-2">
@@ -85,7 +85,7 @@ export default function ServicesCard() {
             >
               General Police Verification
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homegpv} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homegpv} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=c" className="card m-1 mx-2">
@@ -106,7 +106,7 @@ export default function ServicesCard() {
             >
               Learner Driving License
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homeldl} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homeldl} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=h" className="card m-1 mx-2">
@@ -127,7 +127,7 @@ export default function ServicesCard() {
             >
               Employee Registeration
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homeer} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homeer} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=n" className="card m-1 mx-2">
@@ -148,7 +148,7 @@ export default function ServicesCard() {
             >
               Copy of FIR
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homecof} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homecof} />
           </div>
         </Link>
       </div>
@@ -171,7 +171,7 @@ export default function ServicesCard() {
             >
               Womens Violence Report
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homewvr} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homewvr} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=l" className="card m-1 mx-2">
@@ -192,7 +192,7 @@ export default function ServicesCard() {
             >
               Crime Report
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homecr} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homecr} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=k" className="card m-1 mx-2">
@@ -213,7 +213,7 @@ export default function ServicesCard() {
             >
               Loss Report
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homelr} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homelr} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=i" className="card m-1 mx-2">
@@ -234,7 +234,7 @@ export default function ServicesCard() {
             >
               Tenants Registeration
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={hometr} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={hometr} />
           </div>
         </Link>
         <Link style={cardStyle} to="services#id=j" className="card m-1 mx-2">
@@ -255,7 +255,7 @@ export default function ServicesCard() {
             >
               Vehicle Registeration
             </h5>
-            <ReactAudioPlayer className="mt-1" controls src={homevr} />
+            <ReactAudioPlayer style={{width:"100%"}} className="mt-1" controls src={homevr} />
           </div>
         </Link>
       </div>

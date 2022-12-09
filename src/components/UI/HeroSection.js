@@ -12,7 +12,7 @@ function HeroSection() {
         <img src={mainBanner} alt="mainBanner" />
         <h1 className="display-1">خوش آمدید</h1>
         <ReactAudioPlayer
-          style={{ width: "28%", height: "10%", marginTop: "6%" }}
+          style={{ width: "28%", height: "10%", marginTop: "7%" }}
           className="btn"
           src={homeaudio}
           autoPlay
