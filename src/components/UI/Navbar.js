@@ -1,21 +1,23 @@
 import React from "react";
 import logo from "./logo.png";
+import ReactAudioPlayer from "react-audio-player";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import homehero from "../pages/audios/homeaudios/homehero.mp3";
 import "../../styles/Navbar.css";
 import { useDispatch, useSelector } from "react-redux";
-import { removeToken } from '../../store/authSlice';
+import { removeToken } from "../../store/authSlice";
 
 export default function Navbar(props) {
   let location = useLocation();
-  const { token } = useSelector(state => state.auth);
+  const { token } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  
+
   const handleLogout = () => {
     dispatch(removeToken());
-    localStorage.removeItem('access_token')
-    navigate('/sign-in')
-  }
+    localStorage.removeItem("access_token");
+    navigate("/sign-in");
+  };
   return (
     <div>
       <nav
@@ -43,9 +45,21 @@ export default function Navbar(props) {
           >
             <ul className="navbar-nav">
               <li className="nav-item ">
+                <ReactAudioPlayer
+                  controls
+                  style={{
+                    height: "35px",
+                    width: "200px",
+                    marginRight: "5px",
+                    marginTop: "5px",
+                  }}
+                  src={homehero}
+                />
+              </li>
+              <li className="nav-item ">
                 <Link
                   to="/"
-                  className={`nav-link my-1 ${
+                  className={`btn btn-primary mx-1 my-1  ${
                     location.pathname === "/" ? "active" : ""
                   }`}
                   aria-current="page"
@@ -56,7 +70,7 @@ export default function Navbar(props) {
               <li className="nav-item ">
                 <Link
                   to="/services#id=a"
-                  className={`nav-link my-1 ${
+                  className={`btn btn-secondary mx-1 my-1  ${
                     location.pathname === "/services#id=a" ? "active" : ""
                   }`}
                   aria-current="page"
@@ -206,7 +220,7 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <Link
                   to="centers"
-                  className={`nav-link my-1 ${
+                  className={`btn btn-success mx-1 my-1  ${
                     location.pathname === "/centers" ? "active" : ""
                   }`}
                 >
@@ -216,7 +230,7 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <Link
                   to="contact"
-                  className={`nav-link my-1 ${
+                  className={`btn btn-danger mx-1 my-1  ${
                     location.pathname === "/contact" ? "active" : ""
                   }`}
                 >
@@ -224,37 +238,39 @@ export default function Navbar(props) {
                 </Link>
               </li>
               {token ? (
-    <>
-      <li className="nav-item">
-        <Link
-          to="myforms"
-          className={`nav-link my-1 ${location.pathname === "/myforms" ? "active" : ""
-            }`}
-        >
-          My Form Submissions
-        </Link>
-      </li>
-      <li>
-        <button
-          className="btn btn-light mx-1 my-1"
-          onClick={handleLogout}
-        >
-          Sign Out
-        </button>
-      </li>
-    </>
-  ) : (
-      <li>
-        <Link
-          type="button"
-          className={`btn btn-light mx-1 my-1 ${location.pathname === "/sign-in" ? "" : "active"
-            }`}
-          to="/sign-in"
-        >
-          Sign In
-        </Link>
-      </li>
-  )}
+                <>
+                  <li className="nav-item">
+                    <Link
+                      to="/myforms"
+                      className={`btn btn-warning mx-1 my-1  ${
+                        location.pathname === "/myforms" ? "active" : ""
+                      }`}
+                    >
+                      My Form Submissions
+                    </Link>
+                  </li>
+                  <li>
+                    <button
+                      className="btn btn-light mx-1 my-1"
+                      onClick={handleLogout}
+                    >
+                      Sign Out
+                    </button>
+                  </li>
+                </>
+              ) : (
+                <li>
+                  <Link
+                    type="button"
+                    className={`btn btn-light mx-1 my-1 ${
+                      location.pathname === "/sign-in" ? "" : "active"
+                    }`}
+                    to="/sign-in"
+                  >
+                    Sign In
+                  </Link>
+                </li>
+              )}
               {/* Urdu Functionlity */}
               {/* <button
                 type="button"

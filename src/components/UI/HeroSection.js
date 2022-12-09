@@ -10,7 +10,7 @@ function HeroSection() {
     <>
       <div className="contain" style={{ width: "100%" }}>
         <img src={mainBanner} alt="mainBanner" />
-        <h1 className="">خوش آمدید</h1>
+        <h1 className="display-1">خوش آمدید</h1>
         <ReactAudioPlayer
           style={{ width: "28%", height: "10%", marginTop: "6%" }}
           className="btn"
