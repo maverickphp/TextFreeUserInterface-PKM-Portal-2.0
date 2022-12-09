@@ -26,6 +26,9 @@ import ddlstep3 from "../UI/ServicesImages/ddlstep3.png";
 import vvstep3 from "../UI/ServicesImages/vvstep3.png";
 import freestep3 from "../UI/ServicesImages/freestep3.png";
 
+import courierstep4 from "../UI/ServicesImages/courierstep4.png";
+import handstep4 from "../UI/ServicesImages/handstep4.png";
+
 import ccstep1 from "./audios/stepsaudios/ccstep1.mp3";
 import cofstep1 from "./audios/stepsaudios/cofstep1.mp3";
 import crstep1 from "./audios/stepsaudios/crstep1.mp3";
@@ -169,7 +172,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={courierstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -239,7 +242,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={courierstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -309,7 +312,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -379,7 +382,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={courierstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -449,7 +452,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={courierstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -519,7 +522,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={courierstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -589,7 +592,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={courierstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -659,7 +662,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -729,7 +732,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -799,7 +802,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -869,7 +872,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -939,7 +942,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -1009,7 +1012,7 @@ export default function Services(props) {
                   <h2 className="text-start">Step 4:</h2>
                   <img
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
@@ -1080,7 +1083,7 @@ export default function Services(props) {
                   <img
                     {...props.changeProgress(100)}
                     className="img-fluid"
-                    src="https://wallpapercave.com/wp/wp4470754.jpg"
+                    src={handstep4}
                     alt="stepsimage"
                   />
                   <ReactAudioPlayer
